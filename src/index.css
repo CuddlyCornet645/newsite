@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 27% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 213 33% 9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 213 33% 9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 216 89% 63%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 213 33% 11%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 213 33% 9%;
+    --muted-foreground: 210 17% 64%;
+
+    --accent: 216 89% 63%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 10%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 216 89% 63%;
+
+    --radius: 0.75rem;
+
+    --glass: 0 0% 100% / 0.03;
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100% / 0.02), hsl(0 0% 100% / 0.01));
+    --gradient-primary: linear-gradient(180deg, hsl(216 89% 63% / 0.12), hsl(216 89% 63% / 0.06));
+    --shadow-card: 0 8px 30px hsl(210 27% 2% / 0.6);
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+    background: 
+      radial-gradient(1200px 600px at 10% 10%, hsl(216 89% 63% / 0.02), transparent),
+      radial-gradient(900px 400px at 90% 90%, hsl(0 0% 100% / 0.01), transparent),
+      hsl(var(--background));
+  }
+}
