@@ -43,7 +43,7 @@ const Index = () => {
                 <path d="M6 15 L10 9 L14 13 L18 8" stroke="white" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" opacity="0.9"/>
               </svg>
             </span>
-            <h1 className="font-normal text-base tracking-[0.06em] m-0">DS Soft</h1>
+            <h1 className="font-normal text-base tracking-[0.06em] m-0">DsSoft</h1>
           </div>
           <nav className="flex gap-5 items-center">
             <a href="#capabilities" className="text-muted-foreground no-underline text-[13px] hover:text-foreground transition-colors">
@@ -261,12 +261,12 @@ const Index = () => {
               </div>
             </div>
             <div className="flex-1 p-7 rounded-xl bg-gradient-to-b from-white/[0.01] to-transparent border border-white/[0.02] hover:border-white/[0.06] transition-all">
-              <h4 className="m-0 mb-1.5 font-semibold">Hyper-performance EV systems</h4>
+              <h4 className="m-0 mb-1.5 font-semibold">All Downloads on GitHub</h4>
               <p className="text-muted-foreground m-0 text-sm mb-3">
-                Now located under <a href="#" className="text-accent hover:underline">Hyper Performance EVs</a>. High-voltage control systems, telemetry stacks, battery management, and power electronics.
+                Now located under <a href="https://github.com/DsSoft-Byte" className="text-accent hover:underline">GitHub Downloads</a>. From Firmware blobs, source, iOS Cracking tools, custom Libraries and more.
               </p>
               <div className="text-xs text-muted-foreground">
-                Related: VESC modifications, motor controllers, high-current power delivery
+                Related: iOSBridge, LibCrypto, LayerOne™, FastOTA™
               </div>
             </div>
           </div>
@@ -278,7 +278,7 @@ const Index = () => {
                 Modified frame with military-grade 72V 800A battery system. Self-built pack using 21700 EVE 40PL high-discharge cells. ANT 1000A BMS, thermal management, and power delivery architecture.
               </p>
               <div className="text-xs text-muted-foreground">
-                Power: 72V 800A discharge • Cells: EVE 50PL 21700 • Top speed: 147 km/h
+                Power: 72V 800A discharge • Cells: EVE 40PL 21700 • Top speed: 147 km/h
               </div>
             </div>
             <div className="flex-1 p-7 rounded-xl bg-gradient-to-b from-white/[0.01] to-transparent border border-white/[0.02] hover:border-white/[0.06] transition-all">
@@ -298,12 +298,12 @@ const Index = () => {
       <footer id="contact" className="mt-20 pt-10 pb-15 border-t border-white/[0.04]">
         <div className="max-w-[1100px] mx-auto px-5 flex justify-between items-center flex-col md:flex-row gap-4">
           <div>
-            <div className="font-semibold">DS Soft</div>
+            <div className="font-semibold">DsSoft</div>
             <div className="text-muted-foreground text-[13px]">Zurich, Switzerland</div>
           </div>
 
           <div className="text-muted-foreground text-[13px] text-right">
-            <div>© {new Date().getFullYear()} DS Soft — All rights reserved</div>
+            <div>© {new Date().getFullYear()} DsSoft — All rights reserved</div>
           </div>
         </div>
       </footer>
