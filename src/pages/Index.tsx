@@ -65,7 +65,7 @@ const Index = () => {
         <section className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-12 items-center mb-16">
           <div>
             <div className="text-muted-foreground text-[13px] tracking-[0.16em] uppercase mb-[18px]">
-              Solo operator • 17yo specialist • Full-stack hardware & software
+              Solo operator • 18yo specialist • Full-stack hardware & software
             </div>
 
             <h2 className="font-light text-[40px] m-0 mb-[18px] text-foreground leading-[1.05]">
@@ -100,7 +100,7 @@ const Index = () => {
                 <div className="text-xs text-muted-foreground">IDA Pro mastery</div>
               </div>
               <div>
-                <div className="font-semibold text-lg">17yo</div>
+                <div className="font-semibold text-lg">18yo</div>
                 <div className="text-xs text-muted-foreground">Solo operator</div>
               </div>
             </div>
